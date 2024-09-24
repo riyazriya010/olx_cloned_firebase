@@ -1,0 +1,91 @@
+.error{
+  color: red;
+}
+
+.signupParentDiv {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 300px; /* Reduced width */
+  padding: 20px; /* Reduced padding */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signupParentDiv img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.signupParentDiv .input {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  margin: 8px 0; /* Reduced margin */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.signupParentDiv .input:focus {
+  border-color: #002f34;
+}
+
+.signupParentDiv button {
+  width: 100%;
+  height: 40px; /* Reduced height */
+  border: none;
+  background-color: #002f34;
+  color: whitesmoke;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupParentDiv button:hover {
+  background-color: white;
+  color: #002f34;
+  border: 2px solid #002f34;
+}
+
+.signupParentDiv a {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #002f34;
+  text-decoration: none;
+}
+
+.signupParentDiv a:hover {
+  text-decoration: underline;
+}
+
+.signupParentDiv label {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-left: 10px; /* Space between text and spinner */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

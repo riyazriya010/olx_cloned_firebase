@@ -1,0 +1,86 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.viewParentDiv .imageShowDiv img {
+  width: 100%;
+  max-height: 350px; /* Adjust the maximum height as per your design */
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.viewParentDiv .imageShowDiv img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.viewParentDiv .rightSection .productDetails .price {
+  font-weight: 700;
+  color: #002f34;
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.viewParentDiv .rightSection .productDetails .title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.viewParentDiv .rightSection .productDetails .category,
+.viewParentDiv .rightSection .productDetails .createdAt {
+  font-size: 16px;
+  color: #777;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.viewParentDiv .rightSection .contactDetails .sellerTitle {
+  font-size: 20px;
+  color: #002f34;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.viewParentDiv .rightSection .contactDetails .sellerName {
+  font-size: 18px;
+  color: #333;
+}

@@ -1,0 +1,66 @@
+.footerParentDiv {
+  width: 100%;
+  background-color: #002f34; /* Dark blue background color */
+  color: #ffffff; /* Text color for footer content */
+  padding: 40px 20px; /* Add padding for top and bottom spacing */
+  box-sizing: border-box;
+}
+
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Wrap content for better responsiveness */
+  max-width: 1200px; /* Limit content width */
+  margin: 0 auto; /* Center align content */
+  padding: 0 16px; /* Horizontal padding */
+}
+
+.footerParentDiv .section {
+  flex: 1;
+  min-width: 200px; /* Ensure sections don't get too narrow */
+  margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.footerParentDiv .heading {
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 10px; /* Spacing below heading */
+}
+
+.footerParentDiv .list ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+  justify-content: space-between;
+}
+
+.footerParentDiv .list ul li {
+  margin-bottom: 8px; /* Add space between list items */
+  color: #b0bec5; /* Lighten list item color */
+}
+
+.footerParentDiv .footer {
+  display: flex;
+  flex-direction: column; /* Stack the footer content vertically */
+  align-items: center; /* Center align footer content */
+  padding: 10px 0;
+  background: #002f34; /* Dark blue background color */
+  max-width: 1200px; /* Limit footer content width */
+  margin: 0 auto; /* Center align footer content */
+}
+
+.footerParentDiv .footer p {
+  margin: 5px 0; /* Margin for text */
+  text-align: center; /* Center align text */
+  font-size: 14px; /* Smaller font size */
+  color: #b0bec5; /* Lighten text color */
+}
+
+.footerParentDiv .footer a {
+  text-decoration: none;
+  color: #ffffff; /* Link color */
+}
+
+.footerParentDiv .footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
